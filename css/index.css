@@ -1,0 +1,390 @@
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu', sans;
+}
+
+.part-one {
+    background: url("../images/backgrounds/keyboard-coffee-edited-v1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+/* Style for the navigation bar */
+.navbar {
+    background-color: transparent; /* Background color */
+    overflow: hidden;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    width: -webkit-fill-available;
+    left: 0;
+}
+
+.mobile-toggle-button {
+    display: none;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-colored {
+    background: rgba(6,31,36,0.9);
+}
+
+/* Style for the logo */
+.navbar .logo {
+    float: left; /* Make the logo appear on the left side */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: rgb(219, 219, 219); /* Text color */
+    padding-left: 3%; /* Padding around the logo */
+    text-decoration: none; /* Remove underlines from the text */
+    font-weight: bolder;
+    font-family: baybayin;
+}
+
+/* Style for the navigation links */
+.navbar a {
+    float: right; /* Make the links appear on the right side */
+    display: block; /* Display links as blocks */
+    color: rgb(219, 219, 219); /* Text color */
+    text-align: center; /* Center-align text */
+    padding: 14px 16px; /* Padding around the links */
+    text-decoration: none; /* Remove underlines from the text */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar-contact-button {
+    background-color: #007e69;
+    padding: 16px;
+    padding-left: 60px;
+    padding-right: 22px;
+    border: none;
+    border-radius: 35px;
+    margin-right: 12px;
+    color: #fff;
+}
+
+/* Change link color when hovering */
+.navbar a:hover {
+    color: white; /* Text color on hover */
+}
+
+.part-one-two {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: row; /* or column, etc. */
+    justify-content: center; /* or other values */
+    align-items: center; /* or other values */
+}
+
+.part-one-two-one-h4 {
+    font-size: 200%;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.part-one-two-one-h1 {
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: transparent; /* Set the text color to white */
+    -webkit-text-stroke: 1px #fff; /* Add a 2px black stroke */
+    text-shadow: 0.1px #fff;
+    font-family: dosis;
+}
+
+.part-one-two-one-p {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.part-one-two-two {
+    margin-top: 40px;
+}
+
+.part-one-two-two-button {
+    padding: 16px;
+    border: none;
+    border-radius: 35px;
+    font-size: 16px;
+    margin-right: 12px;
+    color: #fff;
+}
+
+.hire-me-button {
+    background-color: #016b59;
+    color: #fff;
+}
+
+.download-cv-button {
+    border: 1px solid #fff;
+    background: rgba(0,0,0,0.3);
+}
+
+.me-png {
+    height: 400px;
+}
+
+.part-two {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row; /* or column, etc. */
+    justify-content: center; /* or other values */
+    align-items: center; /* or other values */
+    background: url("../images/backgrounds/biography.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.part-two-one-images {
+    width: 450px;
+    border-radius: 10px;
+}
+
+.part-two-two {
+    padding-left: 60px;
+    text-align: justify;
+    color: grey;
+}
+
+.part-two-two-info-h1 {
+    color: #3d3c41;
+}
+
+.part-two-two-info-p b {
+    color: #3d3c41;
+}
+
+.part-two-two-social {
+    display: flex;
+    flex-direction: row; /* or column, etc. */
+    align-items: center; /* or other values */
+}
+
+.social {
+    height: 26px;
+    padding-left: 22px;
+}
+
+.part-three {
+    background-color: #f6f6f6;
+    padding: 3%;
+}
+
+.part-three-title {
+    color: #3d3c41;
+    text-align: center;
+    padding: 40px;
+}
+
+.part-three-services {
+    display: flex;
+    flex-direction: row;
+}
+
+.services {
+    width: 30%;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    padding: 26px;
+    margin: 26px;
+    text-align: justify;
+}
+
+.services img {
+    width: 45px;
+} 
+
+.services h3 {
+    color: #3d3c41;
+}
+
+.services p {
+    color: grey;
+    text-indent: 40px;
+}
+
+.services a {
+    text-decoration: none;
+}
+
+.services:hover h3 {
+    color: #007e69;
+}
+
+.part-four {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: row; /* or column, etc. */
+    justify-content: center; /* or other values */
+    align-items: center; /* or other values */
+    background: url("../images/backgrounds/technology.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.percentage-indicator {
+    width: 60%; /* Adjust the width as needed */
+    height: 4px; /* Adjust the height as needed */
+    border: 1px solid grey;
+    text-align: center;
+  }
+  
+  .bar {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+  }
+  
+  .fill-one {
+    width: 85%; /* Adjust the initial fill percentage as needed */
+    height: 100%;
+    background-color: #007e69; /* Adjust the fill color as needed */
+    transition: width 0.5s; /* Add a transition effect for smooth changes */
+  }
+  
+  .fill-two {
+    width: 60%; /* Adjust the initial fill percentage as needed */
+    height: 100%;
+    background-color: #007e69; /* Adjust the fill color as needed */
+    transition: width 0.5s; /* Add a transition effect for smooth changes */
+  }
+  
+  .fill-three {
+    width: 90%; /* Adjust the initial fill percentage as needed */
+    height: 100%;
+    background-color: #007e69; /* Adjust the fill color as needed */
+    transition: width 0.5s; /* Add a transition effect for smooth changes */
+  }
+  
+  .fill-four {
+    width: 40%; /* Adjust the initial fill percentage as needed */
+    height: 100%;
+    background-color: #007e69; /* Adjust the fill color as needed */
+    transition: width 0.5s; /* Add a transition effect for smooth changes */
+  }
+  
+  .fill-five {
+    width: 92%; /* Adjust the initial fill percentage as needed */
+    height: 100%;
+    background-color: #007e69; /* Adjust the fill color as needed */
+    transition: width 0.5s; /* Add a transition effect for smooth changes */
+  }
+
+  .part-five {
+    background: #f6f6f6;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: row; /* or column, etc. */
+    justify-content: center; /* or other values */
+    align-items: center; /* or other values */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    text-align: justify;
+  }
+
+  .part-five-one {
+    display: flex;
+    flex-direction: column; /* or column, etc. */
+    justify-content: space-evenly; /* or other values */
+    align-items: flex-start; /* or other values */
+  }
+
+  .part-five-one-one {
+    display: flex;
+    flex-direction: row; /* or column, etc. */
+    justify-content: space-evenly; /* or other values */
+    align-items: flex-start; /* or other values */
+  }
+
+  .part-five-one-one-description {
+    width: 26%;
+  }
+
+  .part-five-one-one-description img {
+    padding-left: 6px;
+    width: 32px;
+  }
+
+  .part-five-one-one-description h4 {
+    color: #3d3c41;
+  }
+
+  .part-five-one-one-description p {
+    padding: 6px;
+    color: grey;
+    text-indent: 60px;
+  }
+
+  .part-five-two {
+    text-align: center;
+  }
+
+  .part-five-two-image {
+    width: 60%;
+    border-radius: 10px;
+  }
+
+  .part-six {
+    display: flex;
+    flex-direction: row; /* or column, etc. */
+    justify-content: space-evenly; /* or other values */
+    align-items: flex-start; /* or other values */
+    padding: 60px;
+    background-color: #007e69;
+  }
+
+  .part-six-logo {
+    height: 100px;
+  }
+
+  .footer {
+    background-color: #061f24;
+    text-align: center;
+    padding: 100px;
+    color: #fff;
+  }
+
+  .footer h2 {
+    padding: 0px;
+    margin: 0px;
+    font-family: baybayin;
+  }
+
+  .footer h4 {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+  }

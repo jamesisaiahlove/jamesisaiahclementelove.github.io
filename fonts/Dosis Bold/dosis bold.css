@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'dosis'; /* Specify a unique name for the font */
+    src: url('Dosis Bold.woff') format('woff'); /* Path to the WOFF font file */
+    src: url('Dosis Bold.woff2') format('woff2'); /* Path to the WOFF font file */
+    /* You can also include font-weight and font-style properties if needed */
+}

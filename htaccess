@@ -1,0 +1,21 @@
+RewriteEngine On
+
+#Force use of HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#Disable indexing
+Options -Indexes
+
+#removing file extension
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+#control whether a web page can be displayed within an iframe or frame on another website (DENY, SAMEORIGIN, ALLOW-FROM https://example.com)
+Header always append X-Frame-Options SAMEORIGIN
+
+#control whether a browser should try to MIME-sniff the response and change the content type automatically to match the received content. This header helps prevent certain types of web attacks, such as MIME-sniffing and content spoofing.
+Header always set X-Content-Type-Options "nosniff"
+

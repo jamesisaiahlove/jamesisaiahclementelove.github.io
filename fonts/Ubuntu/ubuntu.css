@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'ubuntu'; /* Specify a unique name for the font */
+    src: url('Ubuntu.woff') format('woff'); /* Path to the WOFF font file */
+    src: url('Ubuntu.woff2') format('woff2'); /* Path to the WOFF font file */
+    /* You can also include font-weight and font-style properties if needed */
+}
